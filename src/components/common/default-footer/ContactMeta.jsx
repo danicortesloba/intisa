@@ -1,23 +1,23 @@
-import React from "react";
+
 
 const ContactMeta = () => {
   const contactInfoList = [
     {
-      title: "Total Free Customer Care",
+      title: "Teléfono",
       phone: "+(0) 123 050 945 02",
       phoneLink: "tel:+012305094502", // Changed phoneLink to tel: URI
     },
     {
-      title: "Need Live Support?",
+      title: "Correo",
       mail: "hi@homez.com",
       mailLink: "mailto:hi@homez.com", // Changed mailLink to direct email address
     },
   ];
 
   return (
-    <div className="row mb-4 mb-lg-5">
+    <div className="row mb-4 mb-lg-5" align="center">
       {contactInfoList.map((contact, index) => (
-        <div className="col-auto" key={index}>
+        <div  key={index}>
           <div className="contact-info">
             <p className="info-title">{contact.title}</p>
             {contact.phone && (
