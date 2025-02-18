@@ -718,6 +718,13 @@ li {
     padding-left: 300px;
     width: 100%;
 }
+
+.flexRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
 @media (max-width: 991.98px) {
     .dashboard__main {
         margin-top: 0px;
