@@ -2,7 +2,7 @@
 import { Link } from "react-router-dom";
 
 import ContactInfo from "./ContactInfo";
-import Social from "./Social";
+
 import ProSidebarContent from "./ProSidebarContent";
 
 const MobileMenu = () => {
@@ -57,7 +57,7 @@ const MobileMenu = () => {
             >
               <span className="far fa-times"></span>
             </div>
-            <h4 className="title">Welcome to Intisa</h4>
+            <h4 className="title">Bienvenido a Intisa</h4>
           </div>
           {/* End header */}
 
@@ -72,14 +72,7 @@ const MobileMenu = () => {
                 </div>
                 {/* End .row */}
 
-                <div className="row pt30 pb30 bdrt1">
-                  <div className="col-auto">
-                    <div className="social-style-sidebar d-flex align-items-center pl30">
-                      <h6 className="me-4 mb-0">Follow us</h6>
-                      <Social />
-                    </div>
-                  </div>
-                </div>
+               
               </div>
               {/* hiddenbar_footer */}
             </div>

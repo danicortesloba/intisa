@@ -4,32 +4,12 @@ export const homeItems = [
   { href: "/contact", label: "Contacto" },
 ];
 
-
-
-export const propertyItems = [
-    {
-    label: "Antofagasta",
-    subMenuItems: [
-      { label: "Gandarillas", href: "/single-v4/1" },
-      { label: "Mall", href: "/single-v4/1" },
-    ],
-  },
-  {
-    label: "Santiago",
-    subMenuItems: [
-      { label: "Seminario", href: "/single-v4/1" },
-      { label: "Chicureo", href: "/single-v4/1" },
-    ],
-  },
-
- 
- 
+export const santiago = [
+  { href: "/single-v4/1", label: "Seminario", },
+  { href: "/single-v4/1" ,label: "Chicureo", },
 ];
 
-
-
-
-
-
-
-
+export const antofagasta = [
+  {href: "/single-v4/1", label: "Gandarillas"},
+  { href: "/single-v4/1", label: "Mall"  },
+];

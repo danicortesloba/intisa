@@ -56,7 +56,7 @@ const FeaturedListings = () => {
                     )}
                   </div>
                   <div className="list-price">
-                    {listing.price} / <span>mo</span>
+                    {listing.price} 
                   </div>
                 </div>
                 <div className="list-content">
@@ -66,13 +66,13 @@ const FeaturedListings = () => {
                   <p className="list-text">{listing.location}</p>
                   <div className="list-meta d-flex align-items-center">
                     <a href="#">
-                      <span className="flaticon-bed" /> {listing.bed} bed
+                      <span className="flaticon-bed" /> {listing.bed} Dormitorios
                     </a>
                     <a href="#">
-                      <span className="flaticon-shower" /> {listing.bath} bath
+                      <span className="flaticon-shower" /> {listing.bath} Baños
                     </a>
                     <a href="#">
-                      <span className="flaticon-expand" /> {listing.sqft} sqft
+                      <span className="flaticon-expand" /> {listing.sqft} m2
                     </a>
                   </div>
                   <hr className="mt-2 mb-2" />

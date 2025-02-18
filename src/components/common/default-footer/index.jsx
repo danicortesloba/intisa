@@ -1,7 +1,6 @@
 
 import { Link } from "react-router-dom";
 import ContactMeta from "./ContactMeta";
-import AppWidget from "./AppWidget";
 import Copyright from "./Copyright";
 
 const Footer = () => {
@@ -14,16 +13,13 @@ const Footer = () => {
               <Link className="footer-logo" to="/">
                 <img
                  
-                  className="mb40"
+                  className="mb30"
                   src="/public/images/intisa.png"
                   alt=""
                 />
               </Link>
               <ContactMeta />
-              <AppWidget />
-              <div className="social-widget">
-                <h6 className="text-white mb20">Follow us on social media</h6>
-              </div>
+              
             </div>
           </div>
           {/* End .col-lg-5 */}

@@ -58,7 +58,7 @@ const Home_V2 = () => {
             </div>
             <div className="col-lg-3">
               <div className="text-start text-lg-end mb-3">
-                <Link className="ud-btn2" to="/grid-full-3-col">
+                <Link className="ud-btn2" to="/grid-full-2-col">
                   Ver todas las propiedades
                   <i className="fal fa-arrow-right-long" />
                 </Link>
