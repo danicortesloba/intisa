@@ -46,6 +46,8 @@ const DefaultHeader = () => {
                         
                         src="../public/images/intisa.png"
                         alt="Header Logo"
+                        height={50}
+                        width={50}
                       />
                     </Link>
                     <Link className="header-logo logo2" to="/">
@@ -53,6 +55,8 @@ const DefaultHeader = () => {
                        
                         src="../public/images/intisa.png"
                         alt="Header Logo"
+                        height={70}
+                        width={70}
                       />
                     </Link>
                   </div>

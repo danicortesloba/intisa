@@ -15,7 +15,9 @@ const Footer = () => {
                  
                   className="mb30"
                   src="/public/images/intisa.png"
-                  alt=""
+                  alt="logo"
+                  height={80}
+                  width={80}
                 />
               </Link>
               <ContactMeta />

@@ -51,6 +51,8 @@ const Header = () => {
                        
                         src="public/images/intisa.png"
                         alt="Header Logo"
+                        height={70}
+                        width={70}
                       />
                     </Link>
                   </div>
