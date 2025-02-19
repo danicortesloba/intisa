@@ -5,7 +5,7 @@ export const homeItems = [
 ];
 
 export const santiago = [
-  { href: "/single-v4/1", label: "Seminario", },
+  { href: "/seminario", label: "Seminario", },
   { href: "/single-v4/1" ,label: "Chicureo", },
 ];
 

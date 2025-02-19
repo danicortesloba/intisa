@@ -29,7 +29,7 @@ import Contact from "./pages/pages/contact";
 
 import NotFound from "./pages/not-found";
 
-import SingleV4 from "./pages/property/(single-style)/single-v4";
+import Seminario from "./pages/property/seminario";
 
 
 import ListV1 from "./pages/listings/(list-view)/list-v1";
@@ -84,7 +84,7 @@ function App() {
               <Route path="not-found" element={<NotFound />} />
         
 
-              <Route path="single-v4/:id" element={<SingleV4 />} />
+              <Route path="seminario" element={<Seminario />} />
       
 
               <Route path="*" element={<NotFound />} />
