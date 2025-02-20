@@ -2,7 +2,7 @@ import listings from "@/data/listings";
 
 
 const OverView = ({id}) => {
-  const data = listings.filter((elm) => elm.id == id)[0] || listings[0];
+  const data = listings.filter((elm) => elm.id == id)[1] || listings[1];
   const overviewData = [
     {
       icon: "flaticon-bed",

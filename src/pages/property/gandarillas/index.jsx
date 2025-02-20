@@ -40,7 +40,7 @@ const SingleV4 = () => {
       <section className="pt0 pb90 bgc-white">
         <div className="container">
           <div className="row">
-            <PropertyHeader id={1} />
+            <PropertyHeader id={2} />
           </div>
           {/* End .row */}
 
@@ -49,7 +49,7 @@ const SingleV4 = () => {
               <div className="ps-widget bgc-white bdrs12 default-box-shadow2 p30 mb30 overflow-hidden position-relative">
                 <h4 className="title fz17 mb30">Resumen</h4>
                 <div className="row">
-                  <OverView id={params.id} />
+                  <OverView id={2} />
                 </div>
               </div>
               {/* End .ps-widget */}

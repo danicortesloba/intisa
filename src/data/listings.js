@@ -38,7 +38,7 @@ const listings = [
     región: "Antofagasta",
     comuna: "Antofagasta",
     barrio: "Playa Blanca",
-    dirección: "Gandarillas",
+    dirección: "Gandarillas 564, Antofagasta",
     lat: -23.680304,
     long: -70.412552,
     bed: "4",

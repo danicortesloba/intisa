@@ -19,21 +19,10 @@ const PropertyHeader = ({ id }) => {
               href="#"
             >
               <i className="fas fa-circle fz10 pe-2" />
-              For {data.forRent ? "rent" : "sale"}
+              En {data.forRent ? "alquiler" : "venta"}
             </a>
-            <a
-              className="ff-heading bdrr1 fz15 pr10 ml10 ml0-sm bdrrn-sm"
-              href="#"
-            >
-              <i className="far fa-clock pe-2" />
-              {Number(new Date().getFullYear()) -
-                Number(data.yearBuilding)}{" "}
-              years ago
-            </a>
-            <a className="ff-heading ml10 ml0-sm fz15" href="#">
-              <i className="flaticon-fullscreen pe-2 align-text-top" />
-              8721
-            </a>
+           
+            
           </div>
           <div className="property-meta d-flex align-items-center">
             <a className="text fz15" href="#">
