@@ -28,7 +28,7 @@ const MobileMenu = () => {
               <Link className="mobile_logo" to="/">
                 <img
                  
-                  src="/public/images/intisa.png"
+                  src="../../../../public/images/intisa.png"
                   height={40}
                   width={40}
                   alt="logo"

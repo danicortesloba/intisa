@@ -14,7 +14,7 @@ const Footer = () => {
                 <img
                  
                   className="mb30"
-                  src="/public/images/intisa.png"
+                  src="../../../../public/images/intisa.png"
                   alt="logo"
                   height={80}
                   width={80}

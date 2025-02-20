@@ -5,7 +5,7 @@ const FloorPlans = () => {
               <img
               
                 className="w-100 h-100 cover"
-                src="../../public/images/seminario/seminarioplano.jpeg"
+                src="../..../../../../public/images/seminario/seminarioplano.jpeg"
                 alt="listing figureout"
               />
 
@@ -14,7 +14,7 @@ const FloorPlans = () => {
 <img
               
               className="w-100 h-100 cover"
-              src="../../public/images/seminario/seminariomuebles.jpeg"
+              src="../..../../../../public/images/seminario/seminariomuebles.jpeg"
               alt="listing figureout"
             />
            
