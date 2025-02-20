@@ -10,6 +10,6 @@ export const santiago = [
 ];
 
 export const antofagasta = [
-  {href: "/single-v4/1", label: "Gandarillas"},
+  {href: "/gandarillas", label: "Gandarillas"},
   { href: "/single-v4/1", label: "Mall"  },
 ];
