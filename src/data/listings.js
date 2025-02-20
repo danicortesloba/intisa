@@ -2,7 +2,7 @@ const listings = [
   {
 
     id: 1,
-    image: "/images/seminario/seminarioportada.jpg",
+    image: "../../../../public/images/seminario/seminarioportada.jpg",
     title: "Departamento Avenida Seminario",
     city:'Santiago',location: "Providencia, Región Metropolitana",
     región: "Metropolitana",
