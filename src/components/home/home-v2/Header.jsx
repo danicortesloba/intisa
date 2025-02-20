@@ -42,7 +42,7 @@ const Header = () => {
                       <img
                         width={50}
                         height={50}
-                        src="../../../..../../../../public/images/intisa.png"
+                        src="../../../../images/intisa.png"
                         alt="Header Logo"
                       />
                     </Link>

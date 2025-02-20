@@ -32,7 +32,7 @@ const listings = [
   {
 
     id: 2,
-    image: "../../../../public/images/gandarillas/gandarillasportada.jpg",
+    image: "/images/gandarillas/gandarillasportada.jpg",
     title: "Departamento Gandarillas",
     city:'Antofagasta',location: "Playa Blanca, Antofagasta, Segunda Región",
     región: "Antofagasta",
