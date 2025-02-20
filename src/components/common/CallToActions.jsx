@@ -27,9 +27,9 @@ const CallToActions = () => {
           <div className="row align-items-center">
             <div className="col-lg-7 col-xl-6 " data-aos="fade-right">
               <div className="cta-style1">
-                <h2 className="cta-title">Need help? Talk to our expert.</h2>
+                <h2 className="cta-title">¿Necesitas ayuda?</h2>
                 <p className="cta-text mb-0">
-                  Talk to our experts or Browse through more properties.
+                  Habla con un experto o revisa nuestras propiedades.
                 </p>
               </div>
             </div>
@@ -41,7 +41,7 @@ const CallToActions = () => {
                   to="/contact"
                   className="ud-btn btn-transparent mr30 mr0-xs"
                 >
-                  Contact Us
+                  Contacto
                   <i className="fal fa-arrow-right-long" />
                 </Link>
                 <Link to="/contact" className="ud-btn btn-dark">
