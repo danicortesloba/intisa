@@ -82,7 +82,7 @@ const DashboardHeader = () => {
                     <Link className="logo" to="/">
                       <img
                        
-                        src="public/images/intisa.png"
+                        src="public/images/Intisa.png"
                         alt="Header Logo"
                       />
                     </Link>

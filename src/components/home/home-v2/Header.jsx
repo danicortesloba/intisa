@@ -42,14 +42,14 @@ const Header = () => {
                       <img
                         width={50}
                         height={50}
-                        src="../public/images/intisa.png"
+                        src="/images/Intisa.png"
                         alt="Header Logo"
                       />
                     </Link>
                     <Link className="header-logo logo2" to="/">
                       <img
                        
-                        src="../public/images/intisa.png"
+                        src="../public/images/Intisa.png"
                         alt="Header Logo"
                         height={70}
                         width={70}
