@@ -28,13 +28,13 @@ const MobileMenu = () => {
               <Link className="mobile_logo" to="/">
                 <img
                  
-                  src="/images/header-logo2.svg"
+                  src="/public/images/intisa.png"
+                  height={40}
+                  width={40}
                   alt="logo"
                 />
               </Link>
-              <Link to="/login">
-                <span className="icon fz18 far fa-user-circle" />
-              </Link>
+              
             </div>
           </div>
         </div>

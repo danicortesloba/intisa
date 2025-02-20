@@ -1,5 +1,5 @@
 export const homeItems = [
-  { href: "/agents", label: "Conócenos" },
+  { href: "/about", label: "Conócenos" },
   { href: "/grid-full-2-col", label: "Todas las propiedades" },
   { href: "/contact", label: "Contacto" },
 ];

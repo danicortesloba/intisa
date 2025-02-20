@@ -1,9 +1,9 @@
 
 const mobileMenus = [
     {
-    label: "Inicio",
+    label: "Intisa",
     subMenu:[
-      { path: "/agents", label: "Conócenos" },
+      { path: "/about", label: "Conócenos" },
       { path: "/grid-full-2-col", label: "Todas las propiedades" },
       { path: "/contact", label: "Contacto" },
     ]
@@ -12,7 +12,7 @@ const mobileMenus = [
     
     label: "Santiago",
     subMenu: [
-      { path: "/single-v4/1", label: "Seminario", },
+      { path: "/seminario", label: "Seminario", },
       { path: "/single-v4/1" ,label: "Chicureo", },
     ]
   },

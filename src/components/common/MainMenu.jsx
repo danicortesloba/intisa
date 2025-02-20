@@ -17,7 +17,7 @@ const MainMenu = () => {
   useEffect(() => {
     homeItems.forEach((elm) => {
       if (elm.href.split("/")[1] == pathname.split("/")[1]) {
-        setTopMenu("home");
+        setTopMenu("intisa");
       }
     });
     santiago.forEach((elm) => {
@@ -44,7 +44,7 @@ const MainMenu = () => {
       <li className="visible_list dropitem">
         <a className="list-item" href="#">
           <span className={topMenu == "home" ? "title menuActive" : "title"}>
-            Inicio
+            Intisa
           </span>
           <span className="arrow"></span>
         </a>
@@ -62,7 +62,7 @@ const MainMenu = () => {
       {/* End homeItems */}
       <li className="visible_list dropitem">
         <a className="list-item" href="#">
-          <span className={topMenu == "home" ? "title menuActive" : "title"}>
+          <span className={topMenu == "intisa" ? "title menuActive" : "title"}>
             Santiago
           </span>
           <span className="arrow"></span>
@@ -81,7 +81,7 @@ const MainMenu = () => {
 
       <li className="visible_list dropitem">
         <a className="list-item" href="#">
-          <span className={topMenu == "home" ? "title menuActive" : "title"}>
+          <span className={topMenu == "intisa" ? "title menuActive" : "title"}>
             Antofagasta
           </span>
           <span className="arrow"></span>

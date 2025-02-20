@@ -1,22 +1,15 @@
-
-import listings from "@/data/listings";
-
 import { Navigation, Pagination } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/swiper-bundle.min.css";
+import imageUrls from "./gallery.json"
 
-const GalleryBox = ({id}) => {
-  const imageUrls = [
-    "../../../public/images/seminario/1.jpg",
-    "/images/listings/listing-single-slide2.jpg",
-    
-    "/images/listings/listing-single-slide3.jpg",
-  ];
+const GalleryBox = ({}) => {
+  
 
   return (
     <>
       <Swiper
-        className="overflow-visible"
+        className="overflow-visible propertygallery"
         spaceBetween={30}
         modules={[Navigation, Pagination]}
         navigation={{
@@ -27,12 +20,12 @@ const GalleryBox = ({id}) => {
         initialSlide={1}
         loop={true}
       >
-        {imageUrls.map((imageUrl, index) => (
+        {imageUrls.imageUrls.map((imageUrl, index) => (
           <SwiperSlide key={index}>
-            <div className="item">
+            <div className="item cntr">
               <img
                
-                className="bdrs12 w-100 h-100 cover"
+                className="bdrs12 cover gallery"
                 src={imageUrl}
                 alt={`Image ${index + 1}`}
               />

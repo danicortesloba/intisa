@@ -1,14 +1,14 @@
 import DefaultHeader from "@/components/common/DefaultHeader";
 import Footer from "@/components/common/default-footer";
 import MobileMenu from "@/components/common/mobile-menu";
-import FloorPlans from "@/components/property/property-single-style/seminario/FloorPlans";
-import NearbySimilarProperty from "@/components/property/property-single-style/seminario/NearbySimilarProperty";
-import OverView from "@/components/property/property-single-style/seminario/OverView";
-import PropertyAddress from "@/components/property/property-single-style/seminario/PropertyAddress";
-import PropertyFeaturesAminites from "@/components/property/property-single-style/seminario/PropertyFeaturesAminites";
-import PropertyHeader from "@/components/property/property-single-style/seminario/PropertyHeader";
-import ProperytyDescriptions from "@/components/property/property-single-style/seminario/ProperytyDescriptions";
-import PropertyGallery from "@/components/property/property-single-style/seminario";
+import FloorPlans from "@/components/property/santiago/seminario/FloorPlans";
+import NearbySimilarProperty from "@/components/property/santiago/seminario/NearbySimilarProperty";
+import OverView from "@/components/property/santiago/seminario/OverView";
+import PropertyAddress from "@/components/property/santiago/seminario/PropertyAddress";
+import PropertyFeaturesAminites from "@/components/property/santiago/seminario/PropertyFeaturesAminites";
+import PropertyHeader from "@/components/property/santiago/seminario/PropertyHeader";
+import ProperytyDescriptions from "@/components/property/santiago/seminario/ProperytyDescriptions";
+import PropertyGallery from "@/components/property/santiago/seminario";
 
 import MetaData from "@/components/common/MetaData";
 import { useParams } from "react-router-dom";

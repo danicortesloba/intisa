@@ -1,21 +1,14 @@
 import DefaultHeader from "@/components/common/DefaultHeader";
-
 import Footer from "@/components/common/default-footer";
 import MobileMenu from "@/components/common/mobile-menu";
-
-import PropertyFilteringCol from "@/components/listing/grid-view/grid-full-1-col-v2/PropertyFilteringCol";
-
-
-
-import React from "react";
-
+import PropertyFiltering from "@/components/listing/PropertyFiltering";
 import MetaData from "@/components/common/MetaData";
 
 const metaInformation = {
-  title: "Gird Full 1 Column V2 || Homez - Real Estate ReactJS Template",
+  title: "Gird Full 2 Column || Homez - Real Estate ReactJS Template",
 };
 
-const GridFull1ColV2 = () => {
+const GridFull2Col = () => {
   return (
     <>
     <MetaData meta={metaInformation} />
@@ -27,12 +20,24 @@ const GridFull1ColV2 = () => {
       <MobileMenu />
       {/* End Mobile Nav  */}
 
-      {/* Advance Search */}
-      
+      {/* Breadcumb Sections */}
+      <section className="breadcumb-section bgc-f7">
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-12">
+              <div className="breadcumb-style1">
+                <h2 className="title">Propiedades en Venta</h2>
+               
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
       {/* End Breadcumb Sections */}
 
       {/* Property Filtering */}
-      <PropertyFilteringCol/>
+      <PropertyFiltering/>
+      
       {/* Property Filtering */}
 
       {/* Start Our Footer */}
@@ -44,4 +49,4 @@ const GridFull1ColV2 = () => {
   );
 };
 
-export default GridFull1ColV2;
+export default GridFull2Col;

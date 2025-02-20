@@ -26,6 +26,7 @@ const listings = [
       "Cocina cerrada"
   ],
   gastos: "$45.000",
+  link: "/seminario",
   description:"En venta amplio e iluminado departamento de cuatro dormitorios y tres baños recientemente remodelado. Fantástica ubicación a tres cuadras del Barrio Italia y a dos cuadras del metro. Cuenta con preciosos pisos parquet originales en fantástico estado. Dos de las habitaciones tienen closets muy amplios. La cocina tiene espacio para comedor de diario. Al estar en un cuarto piso todo el departamento cuenta con lindas vistas despejadas. Las ventanas son termopanel. Cuenta con una pequeña bodega desarmable en el patio del edificio.  120m2 totales. Gastos Comunes $45,000"
   },
   {
@@ -53,6 +54,7 @@ const listings = [
       "Cocina cerrada",
   ],
   gastos: "25.000",
+  link: "/gandarillas",
   description: "En venta amplio e independiente departamento de cuatro dormitorios y dos baños en Playa blanca. Fantástica ubicación a dos cuadras de Parque Croacia y tres cuadras de la Universidad Católica del Norte. Barrio residencial tranquilo. Este iluminado departamento se encuentra en un primer piso elevado, lo que otorga vista al mar desde el living. Cuenta con estacionamiento con portón independiente para un vehículo, como también un patio y lavandería independiente. 120m2 totales-90m2 interior. Gastos comunes $25,000 mensual."
   },
   {
@@ -79,6 +81,7 @@ const listings = [
       "Condominio",
   ],
   gastos: "$30.000",
+  link: "/chicureo",
   description:"To come"
   },
   {
@@ -106,6 +109,7 @@ const listings = [
       "Bar",
   ],
   gastos: "$30.000",
+  link: "/mallplaza",
   description:"To come"
   }
 ];

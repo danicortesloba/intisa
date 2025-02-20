@@ -61,17 +61,17 @@ const FeaturedListings = () => {
                 </div>
                 <div className="list-content">
                   <h6 className="list-title">
-                    <Link to="/sigle-v2">{listing.title}</Link>
+                    <Link to={listing.link}>{listing.title}</Link>
                   </h6>
                   <p className="list-text">{listing.location}</p>
                   <div className="list-meta d-flex align-items-center">
-                    <a href="#">
+                  <a href={listing.link}>
                       <span className="flaticon-bed" /> {listing.bed} Dormitorios
                     </a>
-                    <a href="#">
+                    <a href={listing.link}>
                       <span className="flaticon-shower" /> {listing.bath} Baños
                     </a>
-                    <a href="#">
+                    <a href={listing.link}>
                       <span className="flaticon-expand" /> {listing.sqft} m2
                     </a>
                   </div>
@@ -79,7 +79,7 @@ const FeaturedListings = () => {
                   <div className="list-meta2 d-flex justify-content-between align-items-center">
                     <span className="for-what">En venta</span>
                     <div className="icons d-flex align-items-center">
-                      <a href="#">
+                      <a href={listing.link}>
                         <span className="flaticon-new-tab" />
                       </a>
                     </div>
