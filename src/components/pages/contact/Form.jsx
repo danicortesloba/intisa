@@ -1,13 +1,42 @@
-
+import emailjs from '@emailjs/browser';
+import { useState } from 'react';
 
 const Form = () => {
+  const initialForm = {
+    name: "",
+    lastname: "",
+    email: "",
+    phone: "",
+    message: "",
+  }
+  const [form, setForm] = useState({initialForm})
+
+  const manageChange = (e) => {
+    const {name, value} = e.target
+    setForm({ ...form, [name]: value })
+}
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    const form = e.currentTarget
-    console.log(form)
-
+    emailjs
+      .sendForm(
+        import.meta.env.VITE_MAIL_SERVICE_ID,
+        import.meta.env.VITE_FORM_ID,
+        e.target,
+        import.meta.env.VITE_REACT_APP_PUBLIC_KEY
+      )
+      emailjs
+      .sendForm(
+        import.meta.env.VITE_MAIL_SERVICE_ID,
+        import.meta.env.VITE_AUTOREPLY_ID,
+        e.target,
+        import.meta.env.VITE_REACT_APP_PUBLIC_KEY
+      )
+      setForm(initialForm)
+      alert("Mensaje enviado con exito")
+      window.location.reload(false)
   }
+
   return (
     <form className="form-style1" onSubmit= {(e)=> handleSubmit (e)}>
       <div className="row">
@@ -17,6 +46,8 @@ const Form = () => {
               Nombre
             </label>
             <input
+            onChange={manageChange}
+              name= "name"
               type="text"
               className="form-control"
               placeholder="Tu nombre"
@@ -32,6 +63,8 @@ const Form = () => {
              Apellido
             </label>
             <input
+              onChange={manageChange}
+              name="lastname"
               type="text"
               className="form-control"
               placeholder="Tu apellido"
@@ -45,9 +78,24 @@ const Form = () => {
           <div className="mb20">
             <label className="heading-color ff-heading fw600 mb10">Email</label>
             <input
+              onChange={manageChange}
+              name="email"
               type="email"
               className="form-control"
               placeholder="Tu email"
+              required
+            />
+          </div>
+        </div>
+        <div className="col-md-12">
+          <div className="mb20">
+            <label className="heading-color ff-heading fw600 mb10">Teléfono</label>
+            <input
+              onChange={manageChange}
+              name="phone"
+              type="input"
+              className="form-control"
+              placeholder="Tu teléfono"
               required
             />
           </div>
@@ -60,6 +108,8 @@ const Form = () => {
               Comentario
             </label>
             <textarea
+              onChange={manageChange}
+              name="message"
               cols={30}
               rows={4}
               placeholder="¿Cuál es tu pregunta?"
