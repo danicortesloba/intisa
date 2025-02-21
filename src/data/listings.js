@@ -45,7 +45,7 @@ const listings = [
     bath: "2",
     sqft: 120,
     price: "7.280 UF",
-    propertyType:'Apartment',yearBuilding:2000,
+    propertyType:'Departamento',yearBuilding:2000,
     forRent: false,
    
     tags: ["Apartment", "Playa Blanca", "Antofagasta"],
@@ -100,7 +100,7 @@ const listings = [
     sqft: 70,
     price: "7.000 UF",
     forRent: false,
-     propertyType:'Apartment',yearBuilding:2017,
+     propertyType:'Departamento',yearBuilding:2017,
     tags: [ "apartments", "house"],
     featured:true,
     features:[
