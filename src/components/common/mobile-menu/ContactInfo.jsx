@@ -10,7 +10,7 @@ const ContactInfo = () => {
       id: 2,
       title: "Email",
       email: "info@intisa.cl",
-      emailHref: "mailto:ifo@intisa.cl",", // Updated emailHref to use "mailto" URI
+      emailHref: "mailto:info@intisa.cl", // Updated emailHref to use "mailto" URI
     },
   ];
 
