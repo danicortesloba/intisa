@@ -1,4 +1,4 @@
-import React from "react";
+
 
 const ContactInfo = () => {
   const contactInfo = [
@@ -12,7 +12,7 @@ const ContactInfo = () => {
       id: 2,
       title: "Need Live Support?",
       email: "info@intisa.cl",
-      emailHref: "mailto:info@intisa.cl",",
+      emailHref: "mailto:info@intisa.cl",
     },
   ];
 
