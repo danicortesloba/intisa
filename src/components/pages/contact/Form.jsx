@@ -16,25 +16,34 @@ const Form = () => {
     setForm({ ...form, [name]: value })
 }
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    emailjs
+    try {
+      const send = await emailjs
       .sendForm(
         import.meta.env.VITE_MAIL_SERVICE_ID,
         import.meta.env.VITE_FORM_ID,
         e.target,
         import.meta.env.VITE_REACT_APP_PUBLIC_KEY
       )
-      emailjs
-      .sendForm(
-        import.meta.env.VITE_MAIL_SERVICE_ID,
-        import.meta.env.VITE_AUTOREPLY_ID,
-        e.target,
-        import.meta.env.VITE_REACT_APP_PUBLIC_KEY
-      )
-      setForm(initialForm)
-      alert("Mensaje enviado con exito")
-      window.location.reload(false)
+      if(send.status == "200") {
+        emailjs
+        .sendForm(
+          import.meta.env.VITE_MAIL_SERVICE_ID,
+          import.meta.env.VITE_AUTOREPLY_ID,
+          e.target,
+          import.meta.env.VITE_REACT_APP_PUBLIC_KEY
+        )
+        setForm(initialForm)
+        window.location.reload(false)
+      } else {
+        alert ("Algo salió mal")
+      }
+    } catch (e) {
+      console.log(e)
+    }
+   
+      
   }
 
   return (

@@ -9,8 +9,8 @@ const ContactMeta = () => {
     },
     {
       title: "Correo",
-      mail: "hi@homez.com",
-      mailLink: "mailto:hi@homez.com", // Changed mailLink to direct email address
+      mail: "info@intisa.cl",
+      mailLink: "mailto:info@intisa.cl", // Changed mailLink to direct email address
     },
   ];
 

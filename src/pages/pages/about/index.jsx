@@ -1,19 +1,11 @@
-import CallToActions from "@/components/common/CallToActions";
 import DefaultHeader from "@/components/common/DefaultHeader";
-import Partner from "@/components/common/Partner";
 import Footer from "@/components/common/default-footer";
 import MobileMenu from "@/components/common/mobile-menu";
-import Agents from "@/components/pages/about/Agents";
-import Features from "@/components/pages/about/Features";
-import FunFact from "@/components/pages/about/FunFact";
 import Mission from "@/components/pages/about/Mission";
-
-import { Link } from "react-router-dom";
-
 import MetaData from "@/components/common/MetaData";
 
 const metaInformation = {
-  title: "About  || Homez - Real Estate ReactJS Template",
+  title: "Conócenos  || Intisa Propiedades",
 };
 
 const About = () => {

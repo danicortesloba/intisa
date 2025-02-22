@@ -14,7 +14,7 @@ import MetaData from "@/components/common/MetaData";
 import { useParams } from "react-router-dom";
 
 const metaInformation = {
-  title: "Gandarillas",
+  title: "Gandarillas || Intisa Propiedades",
 };
 
 const SingleV4 = () => {

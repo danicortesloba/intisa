@@ -14,7 +14,7 @@ import MetaData from "@/components/common/MetaData";
 import { useParams } from "react-router-dom";
 
 const metaInformation = {
-  title: "Property Single V4 || Homez - Real Estate ReactJS Template",
+  title: "Seminario || Intisa Propiedades",
 };
 
 const SingleV4 = () => {

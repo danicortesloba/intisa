@@ -1,14 +1,12 @@
-import CallToActions from "@/components/common/CallToActions";
 import DefaultHeader from "@/components/common/DefaultHeader";
 import Footer from "@/components/common/default-footer";
 import MobileMenu from "@/components/common/mobile-menu";
 import Form from "@/components/pages/contact/Form";
-import Office from "@/components/pages/contact/Office";
 
 import MetaData from "@/components/common/MetaData";
 
 const metaInformation = {
-  title: "Contact  || Homez - Real Estate ReactJS Template",
+  title: "Contacto  || Intisa Propiedades",
 };
 
 const Contact = () => {

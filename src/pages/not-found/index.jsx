@@ -3,13 +3,12 @@ import Footer from "@/components/common/default-footer";
 import MobileMenu from "@/components/common/mobile-menu";
 
 import { Link } from "react-router-dom";
-import React from "react";
 
 
 import MetaData from "@/components/common/MetaData";
 
 const metaInformation = {
-  title: "Not-Found  || Homez - Real Estate ReactJS Template",
+  title: "Not-Found  || Intisa Propiedades",
 };
 
 const NotFound = () => {

@@ -9,8 +9,8 @@ const ContactInfo = () => {
     {
       id: 2,
       title: "Email",
-      email: "hi@homez.com",
-      emailHref: "mailto:hi@homez.com", // Updated emailHref to use "mailto" URI
+      email: "info@intisa.cl",
+      emailHref: "mailto:ifo@intisa.cl",", // Updated emailHref to use "mailto" URI
     },
   ];
 

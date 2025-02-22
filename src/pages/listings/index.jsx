@@ -5,7 +5,7 @@ import PropertyFiltering from "@/components/listing/PropertyFiltering";
 import MetaData from "@/components/common/MetaData";
 
 const metaInformation = {
-  title: "Gird Full 2 Column || Homez - Real Estate ReactJS Template",
+  title: "Propiedades || Intisa Propiedades",
 };
 
 const GridFull2Col = () => {
