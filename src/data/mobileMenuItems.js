@@ -4,7 +4,7 @@ const mobileMenus = [
     label: "Intisa",
     subMenu:[
       { path: "/about", label: "Conócenos" },
-      { path: "/grid-full-2-col", label: "Todas las propiedades" },
+      { path: "/propiedades", label: "Todas las propiedades" },
       { path: "/contact", label: "Contacto" },
     ]
   },
@@ -19,7 +19,7 @@ const mobileMenus = [
   {
     label: "Antofagasta",
     subMenu: [
-      {path: "/single-v4/1", label: "Gandarillas"},
+      {path: "/gandarillas", label: "Gandarillas"},
       { path: "/single-v4/1", label: "Mall"  },
     ]
   }
