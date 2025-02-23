@@ -9,7 +9,7 @@ const GalleryBox = ({}) => {
   return (
     <>
       <Swiper
-        className="overflow-visible propertygallery"
+        className="overflow-visible propertygallery cntr"
         spaceBetween={30}
         modules={[Navigation, Pagination]}
         navigation={{
