@@ -11,6 +11,7 @@ import Contact from "./pages/pages/contact";
 import NotFound from "./pages/not-found";
 import Seminario from "./pages/property/seminario";
 import Gandarillas from "./pages/property/gandarillas";
+import Mallplaza from "./pages/property/mallplaza";
 import ScrollTopBehaviour from "./components/common/ScrollTopBehaviour";
 
 if (typeof window !== "undefined") {
@@ -40,6 +41,7 @@ function App() {
               <Route path="not-found" element={<NotFound />} />
               <Route path="seminario" element={<Seminario />} />
               <Route path="gandarillas" element={<Gandarillas />} />
+              <Route path="mallplaza" element={<Mallplaza />} />
               <Route path="*" element={<NotFound />} />
             </Route>
           </Routes>

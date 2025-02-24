@@ -1,11 +1,6 @@
-
-
 import MainMenu from "@/components/common/MainMenu";
-import SidebarPanel from "@/components/common/sidebar-panel";
-import LoginSignupModal from "@/components/common/login-signup-modal";
-
 import { Link } from "react-router-dom";
-import React, { useEffect, useState } from "react";
+import  { useEffect, useState } from "react";
 
 const DefaultHeader = () => {
   const [navbar, setNavbar] = useState(false);
@@ -80,10 +75,10 @@ const DefaultHeader = () => {
                 <div className="d-flex align-items-center">
                   <a
                     className=" d-flex align-items-center me-3 "
-                    href="tel:+012305094502"
+                    href="tel:+56978621643"
                   >
                     <i className="far fa-phone fz16 me-2"></i>{" "}
-                    <span className="d-none d-xl-block">2 911 098 7654</span>
+                    <span className="d-none d-xl-block">+56978621643</span>
                   </a>
                  
                 

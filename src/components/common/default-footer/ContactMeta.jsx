@@ -4,8 +4,8 @@ const ContactMeta = () => {
   const contactInfoList = [
     {
       title: "Teléfono",
-      phone: "+(0) 123 050 945 02",
-      phoneLink: "tel:+012305094502", // Changed phoneLink to tel: URI
+      phone: "+56978621643",
+      phoneLink: "tel:+56978621643", // Changed phoneLink to tel: URI
     },
     {
       title: "Correo",

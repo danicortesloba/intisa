@@ -86,19 +86,19 @@ const listings = [
   },
   {
     id: 4,
-    image: "/images/listings/g1-4.jpg",
+    image: "/images/mall/mallbanner.jpg",
     title: "Mall Plaza Antofagasta",
     city:'Antofagasta',location: "Antofagasta, II Región",
-    lat: 39.62158564223682,
-    long: -80.15625432727268,
+    lat: -23.6464797,
+    long: -70.4020678,
     región: "Antofagasta",
     comuna: "Antofagasta",
     barrio: "Mall Plaza",
-    dirección: "X",
-    bed: "3",
+    dirección: "Av. Balmaceda 2355, Antofagasta",
+    bed: "2",
     bath: "2",
-    sqft: 70,
-    price: "7.000 UF",
+    sqft: 76,
+    price: "7.100 UF",
     forRent: false,
      propertyType:'Departamento',yearBuilding:2017,
     tags: [ "apartments", "house"],
@@ -110,7 +110,7 @@ const listings = [
   ],
   gastos: "$30.000",
   link: "/mallplaza",
-  description:"To come"
+  description:"En venta moderno y seguro departamento amoblado en inigualable ubicación, al lado del Mall Plaza Antofagasta y a pasos del centro. Cuenta con dos dormitorios y dos baños. Ambos en suite y con espacio para un escritorio. Amplio balcón con una linda vista desde el piso 15. También cuenta con un estacionamiento y bodega. Fantástica oportunidad de inversión o para llegar y mudarse. Completamente equipado con muebles de primer nivel. El edificio cuenta con conserjería 24/7, piscina con preciosa vista, lavandería, restaurante y bar en el piso 28. El primer piso cuenta con boulevard comercial el que incluye un gimnasio. 76m2 totales. Gastos comunes 180,000 mensuales"
   }
 ];
 
