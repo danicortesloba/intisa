@@ -12,7 +12,7 @@ const listings = [
     bed: "3",
     bath: "3",
     sqft: 120,
-    price: "7.280 UF",
+    price: "7.250 UF",
     forRent: false,
     tags: ["Apartment", "Providencia", "Santiago"],
     propertyType:'Departamento',yearBuilding:1980,
@@ -27,7 +27,7 @@ const listings = [
   ],
   gastos: "$45.000",
   link: "/seminario",
-  description:"En venta amplio e iluminado departamento de cuatro dormitorios y tres baños recientemente remodelado. Fantástica ubicación a tres cuadras del Barrio Italia y a dos cuadras del metro. Cuenta con preciosos pisos parquet originales en fantástico estado. Dos de las habitaciones tienen closets muy amplios. La cocina tiene espacio para comedor de diario. Al estar en un cuarto piso todo el departamento cuenta con lindas vistas despejadas. Las ventanas son termopanel. Cuenta con una pequeña bodega desarmable en el patio del edificio.  120m2 totales. Gastos Comunes $45,000"
+  description:"En venta amplio e iluminado departamento de tres dormitorios y tres baños recientemente remodelado. Fantástica ubicación a tres cuadras del Barrio Italia y a dos cuadras del metro. Cuenta con preciosos pisos parquet originales en fantástico estado. Comedor y living independientes muy amplios. El espacio asignado para el living se puede usar tranquilamente como living/comedor, lo que podría dejar el espacio comedor para una amplia oficina. Dos de las habitaciones tienen closets muy amplios y el tercer dormitorio tiene baño ensuite. La cocina tiene espacio para comedor de diario. Al estar en un cuarto piso todo el departamento cuenta con lindas vistas despejadas. Las ventanas son termopanel. Cuenta con una pequeña bodega desarmable en el patio del edificio. 120m2 totales. Gastos comunes $45,000 mensuales"
   },
   {
 
@@ -44,7 +44,7 @@ const listings = [
     bed: "4",
     bath: "2",
     sqft: 120,
-    price: "7.280 UF",
+    price: "7.400 UF",
     propertyType:'Departamento',yearBuilding:2000,
     forRent: false,
    
@@ -55,7 +55,7 @@ const listings = [
   ],
   gastos: "25.000",
   link: "/gandarillas",
-  description: "En venta amplio e independiente departamento de cuatro dormitorios y dos baños en Playa blanca. Fantástica ubicación a dos cuadras de Parque Croacia y tres cuadras de la Universidad Católica del Norte. Barrio residencial tranquilo. Este iluminado departamento se encuentra en un primer piso elevado, lo que otorga vista al mar desde el living. Cuenta con estacionamiento con portón independiente para un vehículo, como también un patio y lavandería independiente. 120m2 totales-90m2 interior. Gastos comunes $25,000 mensual."
+  description: "En venta amplio e independiente departamento de cuatro dormitorios y dos baños en Playa blanca. Fantástica ubicación a dos cuadras de Parque Croacia y tres cuadras de la Universidad Católica del Norte. Barrio residencial tranquilo. Este iluminado departamento se encuentra en un primer piso elevado, lo que otorga vista al mar desde el living. Cuenta con estacionamiento con portón independiente para un vehículo, como también un patio y lavandería independiente. 120m2 totales. Gastos comunes $25,000 mensuales"
   },
   {
     id: 3,
