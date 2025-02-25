@@ -18,7 +18,7 @@ const listings = [
     propertyType:'Departamento',yearBuilding:1980,
     featured:true,
     lat: -33.4433403,
-        long: -70.62957,
+        long: -70.6321314,
     features:[
       
       "Piso parqué",
