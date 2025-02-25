@@ -8,7 +8,7 @@ const listings = [
     región: "Metropolitana",
     comuna: "Providencia",
     barrio: "Barrio Italia",
-    dirección: "Seminario 181",
+    dirección: "Seminario 181, Providencia, Santiago",
     bed: "3",
     bath: "3",
     sqft: 120,
