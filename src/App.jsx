@@ -12,6 +12,7 @@ import NotFound from "./pages/not-found";
 import Seminario from "./pages/property/seminario";
 import Gandarillas from "./pages/property/gandarillas";
 import Mallplaza from "./pages/property/mallplaza";
+import Chicureo from "./pages/property/chicureo";
 import ScrollTopBehaviour from "./components/common/ScrollTopBehaviour";
 
 if (typeof window !== "undefined") {
@@ -42,6 +43,7 @@ function App() {
               <Route path="seminario" element={<Seminario />} />
               <Route path="gandarillas" element={<Gandarillas />} />
               <Route path="mallplaza" element={<Mallplaza />} />
+              <Route path="chicureo" element={<Chicureo />} />
               <Route path="*" element={<NotFound />} />
             </Route>
           </Routes>

@@ -4,7 +4,7 @@ import listings from "@/data/listings";
 
 
 const PropertyHeader = ({ id }) => {
-  const data = listings.filter((elm) => elm.id == id)[1] || listings[1];
+  const data = listings.filter((elm) => elm.id == id)[2] || listings[2];
   return (
     <>
       <div className="col-lg-8">
