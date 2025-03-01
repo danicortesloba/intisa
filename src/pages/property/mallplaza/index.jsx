@@ -82,7 +82,7 @@ const SingleV4 = () => {
               {/* End .ps-widget */}
 
               <div className="ps-widget bgc-white bdrs12 default-box-shadow2 p30 mb30 overflow-hidden position-relative">
-                <h4 className="title fz17 mb30">Plano</h4>
+                <h4 className="title fz17 mb30">Imagínatelo</h4>
                 <div className="row">
                   <div className="col-md-12">
                     <div className="accordion-style1 style2">

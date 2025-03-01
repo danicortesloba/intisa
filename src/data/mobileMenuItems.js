@@ -13,14 +13,14 @@ const mobileMenus = [
     label: "Santiago",
     subMenu: [
       { path: "/seminario", label: "Seminario", },
-      { path: "/single-v4/1" ,label: "Chicureo", },
+      { path: "/chicureo" ,label: "Chicureo", },
     ]
   },
   {
     label: "Antofagasta",
     subMenu: [
       {path: "/gandarillas", label: "Gandarillas"},
-      { path: "/single-v4/1", label: "Mall"  },
+      { path: "/mallplaza", label: "Mall"  },
     ]
   }
    

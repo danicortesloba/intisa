@@ -6,10 +6,10 @@ export const homeItems = [
 
 export const santiago = [
   { href: "/seminario", label: "Seminario", },
-  { href: "/single-v4/1" ,label: "Chicureo", },
+  { href: "/chicureo" ,label: "Chicureo", },
 ];
 
 export const antofagasta = [
   {href: "/gandarillas", label: "Gandarillas"},
-  { href: "/single-v4/1", label: "Mall"  },
+  { href: "/mallplaza", label: "Mall"  },
 ];
