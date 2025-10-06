@@ -71,7 +71,7 @@ const Header = () => {
                     href="tel:+56978621643"
                   >
                     <i className="far fa-phone fz16 me-2"></i>{" "}
-                    <span className="d-none d-xl-block">+56978621643</span>
+                    <span className="d-none d-xl-block">+56 977013023/ +56 976635534</span>
                   </a>
                  
                 
